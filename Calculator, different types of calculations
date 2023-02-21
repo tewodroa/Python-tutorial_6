@@ -1,0 +1,18 @@
+print('Calculator')
+num1=input("Give the first number: ")
+num2=input("Give the second number: ")
+x=int(num1)
+y=int(num2)
+print('(1) +\n(2) -\n(3) *\n(4) /')
+a=input('Please select something (1-4): ')
+b=int(a)
+if (b==1):
+    print("The result is:",x+y)
+elif (b==2):
+        print('The result is:',x-y)
+elif (b==3):
+        print('The result is:',x*y)
+elif (b==4):
+        print('The result is:',x/y)
+else :
+    print('Selection was not correct.')
